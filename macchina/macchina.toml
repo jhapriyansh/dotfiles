@@ -1,0 +1,14 @@
+# trexible — selected system readouts
+theme = "trexible"
+
+show = [
+    "Host",
+    "Machine",
+    "Kernel",
+    "Packages",
+    "Terminal",
+    "Uptime"
+]
+
+long_uptime = true
+
