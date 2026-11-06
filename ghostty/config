@@ -1,0 +1,84 @@
+# Appearance
+font-family = Fira Code Retina
+font-size = 18
+cursor-style = block
+cursor-style-blink = false
+cursor-invert-fg-bg = true
+mouse-hide-while-typing = true
+
+# Transparency + blur 
+background-opacity = 0.82
+background-blur-radius = 8
+
+# Color Palette
+background = #0d0e14
+foreground = #a8ff3e
+
+# Cursor + selection
+selection-background = #2d1b69
+selection-foreground = #a8ff3e
+
+# ANSI palette
+palette = 0=#0d0e14
+palette = 1=#ff4f7b
+palette = 2=#a8ff3e
+palette = 3=#f0e040
+palette = 4=#7b5ea7
+palette = 5=#c084fc
+palette = 6=#00d4ff
+palette = 7=#e0e0e0
+palette = 8=#3a3d52
+palette = 9=#ff6b9d
+palette = 10=#b4f429
+palette = 11=#fff176
+palette = 12=#9b7fd4
+palette = 13=#d4a0ff
+palette = 14=#40e0ff
+palette = 15=#ffffff
+
+# macOS
+macos-titlebar-style = native
+macos-option-as-alt = true
+
+# Window
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+window-save-state = always
+window-decoration = true
+
+# Behaviour
+confirm-close-surface = true
+copy-on-select = clipboard
+focus-follows-mouse = true
+link-url = true
+shell-integration-features = true
+auto-update = download
+auto-update-channel = stable
+
+# Keybindings 
+keybind = super+r=reload_config
+keybind = super+f=toggle_fullscreen
+keybind = super+left=previous_tab
+keybind = super+right=next_tab
+keybind = global:super+grave_accent=toggle_quick_terminal
+
+# splits 
+keybind = super+b>\=new_split:right
+keybind = super+b>-=new_split:down
+keybind = super+b>e=equalize_splits
+keybind = super+b>z=toggle_split_zoom
+keybind = super+b>h=goto_split:left
+keybind = super+b>j=goto_split:bottom
+keybind = super+b>k=goto_split:top
+keybind = super+b>l=goto_split:right
+
+# tabs
+keybind = super+b>c=new_tab
+keybind = super+b>x=close_surface
+keybind = super+b>1=goto_tab:1
+keybind = super+b>2=goto_tab:2
+keybind = super+b>3=goto_tab:3
+keybind = super+b>4=goto_tab:4
+keybind = super+b>5=goto_tab:5
+
